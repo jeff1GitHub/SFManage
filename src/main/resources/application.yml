@@ -1,0 +1,5 @@
+server.port: 8999
+#view
+spring.mvc.view:
+  prefix: /WEB-INF/views/
+  suffix: .jsp
