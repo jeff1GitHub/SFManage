@@ -10,13 +10,13 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 @SpringBootApplication
 public class ManageApplication extends SpringBootServletInitializer {
 
-	@Override
-	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-		return application.sources(ManageApplication.class);
-	}
+    @Override
+    protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
+        return application.sources(ManageApplication.class);
+    }
 
-	public static void main(String[] args) {
-		SpringApplication.run(ManageApplication.class, args);
-		System.out.println("启动成功");
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(ManageApplication.class, args);
+        System.out.println("启动成功");
+    }
 }
