@@ -9,7 +9,7 @@ spring.mvc.view:
 mybatis-plus:
   mapper-locations: classpath:/static/mapping/*.xml
   typeAliasesPackage: com.sf.manage.model #实体扫描，多个package用逗号或者分号分隔
-  typeEnumsPackage: com.sf.manage.enums
+#  typeEnumsPackage: com.sf.manage.enums
   configuration:
       map-underscore-to-camel-case: false
       cache-enabled: false
@@ -26,9 +26,8 @@ mybatis-plus:
 #    key-generator: com.baomidou.springboot.xxx #序列接口实现类配置
 
 spring.datasource:
-    url: jdbc:mysql://localhost:3306/game?useUnicode=true&characterEncoding=utf8
+    url: jdbc:mysql://localhost:3306/sf?useUnicode=true&characterEncoding=utf8
     driver-class-name: org.gjt.mm.mysql.Driver
-    #driver-class-name: com.p6spy.engine.spy.P6SpyDriver
     username: root
-    password: a123456
+    password: qwe123
     type: com.alibaba.druid.pool.DruidDataSource
